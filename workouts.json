@@ -2,20 +2,440 @@
   "inferiores": {
     "iniciante": {
       "5": {
-        "exercicios": [
-          "Agachamento livre - 3x10",
-          "Elevação de panturrilha - 3x15",
-          "Ponte de glúteos - 3x12"
-        ],
+        "exercicios": ["Agachamento livre - 3x10", "Elevação de panturrilha - 3x12", "Ponte de glúteos - 3x10"],
+        "video": "https://www.youtube.com/watch?v=BQwDU7SHe30"
+      },
+      "10": {
+        "exercicios": ["Agachamento livre - 3x12", "Avanço alternado - 3x10", "Elevação de panturrilha - 3x15", "Ponte isométrica - 3x30s"],
+        "video": "https://www.youtube.com/watch?v=qmuQVZOWS3s"
+      },
+      "15": {
+        "exercicios": ["Agachamento sumô - 3x12", "Avanço caminhando - 3x12", "Elevação pélvica - 3x15", "Panturrilha em pé - 3x20", "Agachamento isométrico - 30s"],
+        "video": "https://www.youtube.com/watch?v=0y5FCy7g_rk"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Agachamento com salto - 3x12", "Afundo búlgaro - 3x10 cada", "Elevação de panturrilha unilateral - 3x12"],
+        "video": "https://www.youtube.com/watch?v=3rWzi9c_WAI"
+      },
+      "10": {
+        "exercicios": ["Agachamento sumô - 3x15", "Passada alternada - 3x12", "Ponte de glúteos unilateral - 3x10", "Agachamento pulsado - 30s"],
+        "video": "https://www.youtube.com/watch?v=hrOUqAdWJvM"
+      },
+      "15": {
+        "exercicios": ["Agachamento profundo - 4x12", "Afundo cruzado - 3x12", "Step-up - 3x10", "Ponte borboleta - 3x15", "Agachamento isométrico - 45s"],
+        "video": "https://www.youtube.com/watch?v=Jg_8q4pS_wU"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Pistol squat (adaptado) - 3x8", "Agachamento com salto - 3x15", "Panturrilha explosiva - 3x20"],
         "video": "https://www.youtube.com/watch?v=bEv6CCg2BC8"
       },
       "10": {
-        "exercicios": [
-          "Agachamento livre - 3x15",
-          "Avanço alternado - 3x10",
-          "Elevação de panturrilha - 3x20"
-        ],
-        "video": "https://www.youtube.com/watch?v=aclHkVaku9U"
+        "exercicios": ["Afundo com salto - 3x10", "Agachamento sumô pulsado - 3x20", "Hip thrust - 3x15", "Wall sit - 1 min"],
+        "video": "https://www.youtube.com/watch?v=Jg_8q4pS_wU"
+      },
+      "15": {
+        "exercicios": ["Agachamento búlgaro com salto - 3x10", "Salto na caixa - 3x12", "Elevação pélvica unilateral - 3x12", "Agachamento lateral alternado - 3x15", "Panturrilha sóleo - 3x25"],
+        "video": "https://www.youtube.com/watch?v=YdSxwGVugAc"
+      }
+    }
+  },
+  "superiores": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Flexão de braço (joelhos) - 3x8", "Rosca bíceps - 3x12", "Elevação lateral - 3x10"],
+        "video": "https://www.youtube.com/watch?v=XZz9f_F3tqY"
+      },
+      "10": {
+        "exercicios": ["Flexão de braço - 3x10", "Tríceps banco - 3x8", "Remada curvada - 3x12", "Desenvolvimento - 3x10"],
+        "video": "https://www.youtube.com/watch?v=eQW6z8kFp1Q"
+      },
+      "15": {
+        "exercicios": ["Flexão inclinada - 3x10", "Pullover - 3x12", "Elevação frontal - 3x10", "Rosca martelo - 3x12", "Superman - 3x12"],
+        "video": "https://www.youtube.com/watch?v=axppd_fDqbU"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Flexão de braço padrão - 3x12", "Tríceps mergulho - 3x12", "Remada unilateral - 3x12"],
+        "video": "https://www.youtube.com/watch?v=8ZUtbZAetp8"
+      },
+      "10": {
+        "exercicios": ["Flexão diamante - 3x8", "Voo invertido - 3x12", "Prancha toque no ombro - 3x20", "Bíceps concentrado - 3x10"],
+        "video": "https://www.youtube.com/watch?v=alvaQZjxY_Y"
+      },
+      "15": {
+        "exercicios": ["Flexão declinada - 3x10", "Tríceps testa - 3x12", "Remada alta - 3x12", "Prancha sobe e desce - 3x10", "Elevação lateral isometria - 15s"],
+        "video": "https://www.youtube.com/watch?v=axppd_fDqbU"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Flexão explosiva - 3x8", "Tríceps mergulho profundo - 3x15", "Pike push-up - 3x8"],
+        "video": "https://www.youtube.com/watch?v=iodB3cba9UE"
+      },
+      "10": {
+        "exercicios": ["Flexão arqueiro - 3x8", "Remada serrote - 3x15", "Flexão hindu - 3x8", "Prancha com remada - 3x12"],
+        "video": "https://www.youtube.com/watch?v=XZz9f_F3tqY"
+      },
+      "15": {
+        "exercicios": ["Handstand push-up (ou Pike) - 3x6", "Flexão Homem-Aranha - 3x12", "Tríceps coice bilateral - 3x15", "Crucifixo inverso - 3x15", "Walkout com flexão - 3x8"],
+        "video": "https://www.youtube.com/watch?v=iodB3cba9UE"
+      }
+    }
+  },
+  "corpo-inteiro": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Polichinelo - 1 min", "Agachamento livre - 3x12", "Flexão de braço (joelhos) - 3x10"],
+        "video": "https://www.youtube.com/watch?v=VecbXHgjaBk"
+      },
+      "10": {
+        "exercicios": ["Marcha alta - 1 min", "Avanço - 3x10", "Prancha abdominal - 3x30s", "Tríceps banco - 3x10"],
+        "video": "https://www.youtube.com/watch?v=VecbXHgjaBk"
+      },
+      "15": {
+        "exercicios": ["Polichinelo - 2 min", "Agachamento sumô - 3x12", "Flexão inclinada - 3x10", "Abdominal remador - 3x15", "Ponte de glúteos - 3x15"],
+        "video": "https://www.youtube.com/watch?v=YdSxwGVugAc"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Burpee adaptado - 3x8", "Agachamento com desenvolvimento - 3x12", "Abdominal infra - 3x15"],
+        "video": "https://www.youtube.com/watch?v=VecbXHgjaBk"
+      },
+      "10": {
+        "exercicios": ["Mountain Climbers - 3x30s", "Flexão com rotação - 3x8", "Afundo reverso - 3x12", "Prancha lateral - 3x30s"],
+        "video": "https://www.youtube.com/watch?v=oKJmnV-duJo"
+      },
+      "15": {
+        "exercicios": ["Polisapato - 1 min", "Agachamento isométrico - 45s", "Flexão diamante - 3x10", "Abdominal bicicleta - 3x20", "Superman - 3x15"],
+        "video": "https://www.youtube.com/watch?v=oKJmnV-duJo"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Burpees completos - 3x10", "Thrusters - 3x12", "Abdominal V-up - 3x12"],
+        "video": "https://www.youtube.com/watch?v=xF42_eqYWLI"
+      },
+      "10": {
+        "exercicios": ["Agachamento com salto - 3x15", "Flexão explosiva - 3x10", "Sit-ups completos - 3x20", "Corrida no lugar - 2 min"],
+        "video": "https://www.youtube.com/watch?v=xF42_eqYWLI"
+      },
+      "15": {
+        "exercicios": ["Burpee com flexão - 3x10", "Pistol Squat alternado - 3x6", "Prancha Superman - 3x10", "Avanço com salto - 3x12", "Hollow Hold - 30s"],
+        "video": "https://www.youtube.com/watch?v=uOW5VsQCfPI"
+      }
+    }
+  },
+  "hiit": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Polichinelos - 30s", "Descanso - 10s", "Agachamento rápido - 30s", "Descanso - 10s", "Corrida parada - 30s"],
+        "video": "https://www.youtube.com/watch?v=M0uO8X3_tEA"
+      },
+      "10": {
+        "exercicios": ["Polichinelos - 40s", "Agachamento - 40s", "Prancha - 30s", "Corrida calcanhar atrás - 40s", "Repetir 2x"],
+        "video": "https://www.youtube.com/watch?v=M0uO8X3_tEA"
+      },
+      "15": {
+        "exercicios": ["Circuito 3x:", "Polichinelo - 45s", "Agachamento toque chão - 45s", "Mountain Climber lento - 30s", "Ponte - 45s"],
+        "video": "https://www.youtube.com/watch?v=rHvxkwMcV30"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Mountain Climbers - 40s", "Descanso - 20s", "Agachamento Salto - 40s", "Descanso - 20s", "Prancha dinâmica - 40s"],
+        "video": "https://www.youtube.com/watch?v=K1yajpA8T74"
+      },
+      "10": {
+        "exercicios": ["Tabata (20s on / 10s off):", "Burpee", "Corrida Alta", "Agachamento Sumô", "Flexão", "Repetir 2x"],
+        "video": "https://www.youtube.com/watch?v=_yNHzgXUHqY"
+      },
+      "15": {
+        "exercicios": ["45s Execução / 15s Descanso:", "Burpees", "Passada Salto", "Prancha Ombro", "Polisapato", "Abdominal Bike", "Repetir 2x"],
+        "video": "https://www.youtube.com/watch?v=rHvxkwMcV30"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Burpees - 50s", "Descanso - 10s", "Salto Caixa - 50s", "Descanso - 10s", "Sprints - 50s"],
+        "video": "https://www.youtube.com/watch?v=_yNHzgXUHqY"
+      },
+      "10": {
+        "exercicios": ["EMOM 10 min:", "Minuto par: 15 Burpees", "Minuto ímpar: 20 Agachamentos com salto"],
+        "video": "https://www.youtube.com/watch?v=_yNHzgXUHqY"
+      },
+      "15": {
+        "exercicios": ["40s ON / 20s OFF:", "Tuck Jumps", "Flexão Homem-Aranha", "Agachamento 180º", "Mountain Climber Cross", "V-Ups", "Repetir 3x"],
+        "video": "https://www.youtube.com/watch?v=rHvxkwMcV30"
+      }
+    }
+  },
+  "alongamento": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Rotação de pescoço - 30s", "Alongamento de ombros - 30s", "Toque aos pés - 45s", "Alongamento lateral - 30s"],
+        "video": "https://www.youtube.com/watch?v=sB8u49yD2Ig"
+      },
+      "10": {
+        "exercicios": ["Gato e Vaca - 1 min", "Alongamento lateral tronco - 45s", "Abraçar joelhos - 1 min", "Torção de coluna - 45s"],
+        "video": "https://www.youtube.com/watch?v=sM9bRIjmzyg"
+      },
+      "15": {
+        "exercicios": ["Rotação de ombros - 1 min", "Alongamento tríceps - 45s", "Borboleta - 1 min", "Posição da Criança - 1 min", "Cobra - 45s", "Isquiotibiais - 1 min"],
+        "video": "https://www.youtube.com/watch?v=ozJ5AaWDwqo"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Cachorro olhando para baixo - 45s", "Afundo baixo - 45s", "Alongamento peitoral - 30s"],
+        "video": "https://www.youtube.com/watch?v=sM9bRIjmzyg"
+      },
+      "10": {
+        "exercicios": ["Saudação ao Sol A - 3x", "Postura do Pombo - 1 min", "Alongamento posterior coxa - 45s"],
+        "video": "https://www.youtube.com/watch?v=tXWh-dowiLg"
+      },
+      "15": {
+        "exercicios": ["Mobilidade de quadril 90/90 - 2 min", "Escorpião - 1 min", "Gato/Vaca dinâmico - 1 min", "Ponte completa - 3x30s"],
+        "video": "https://www.youtube.com/watch?v=aZ1PzhThqcU"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Mobilidade de tornozelo - 1 min", "Ponte completa - 2x30s", "Alongamento punhos - 1 min"],
+        "video": "https://www.youtube.com/watch?v=sB8u49yD2Ig"
+      },
+      "10": {
+        "exercicios": ["Flow de Yoga Vinyasa - 5 min", "Espacate (tentativa) - 2 min", "Guerreiro Reverso - 1 min"],
+        "video": "https://www.youtube.com/watch?v=tXWh-dowiLg"
+      },
+      "15": {
+        "exercicios": ["Mobilidade torácica - 3 min", "Abertura pélvica sapo - 2 min", "Postura do Arado - 1 min", "Alongamento pescoço 4 direções - 2 min"],
+        "video": "https://www.youtube.com/watch?v=aZ1PzhThqcU"
+      }
+    }
+  },
+  "abs": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Abdominal supra curto - 3x15", "Ponte - 3x10", "Toque no calcanhar - 3x20"],
+        "video": "https://www.youtube.com/watch?v=lkQT0v6sS0Y"
+      },
+      "10": {
+        "exercicios": ["Abdominal supra - 3x15", "Abdominal infra - 3x10", "Prancha isométrica - 3x20s", "Abdominal oblíquo - 3x12"],
+        "video": "https://www.youtube.com/watch?v=Zr86qV2dncc"
+      },
+      "15": {
+        "exercicios": ["Abdominal remador - 3x12", "Tesoura - 3x20s", "Prancha ventral - 3x30s", "Bird-dog - 3x12", "Abdominal supra pés altos - 3x15"],
+        "video": "https://www.youtube.com/watch?v=rMsYyGloZ3I"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Abdominal Bicicleta - 3x20", "Prancha toca ombro - 3x20", "Abdominal em V - 3x12"],
+        "video": "https://www.youtube.com/watch?v=6UWcaE8rR68"
+      },
+      "10": {
+        "exercicios": ["Russian Twist - 3x20", "Leg Raise - 3x15", "Prancha lateral - 3x30s", "Mountain Climber cruzado - 3x20"],
+        "video": "https://www.youtube.com/watch?v=6UWcaE8rR68"
+      },
+      "15": {
+        "exercicios": ["Canivete alternado - 3x16", "Prancha elevação perna - 3x10", "Abdominal infra vela - 3x10", "Hollow Hold - 3x20s", "Giro Russo - 3x20"],
+        "video": "https://www.youtube.com/watch?v=rMsYyGloZ3I"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Abdominal Canivete - 3x10", "Prancha Spiderman - 3x12", "Flutter Kicks - 3x30s"],
+        "video": "https://www.youtube.com/watch?v=-W7ASpdUgJg"
+      },
+      "10": {
+        "exercicios": ["Abdominal suspenso ou Canivete - 3x12", "L-Sit (chão) - 3x15s", "Limpador de para-brisa - 3x12", "Prancha serrátil - 3x40s"],
+        "video": "https://www.youtube.com/watch?v=6UWcaE8rR68"
+      },
+      "15": {
+        "exercicios": ["Dragon Flag negativa - 3x5", "Abdominal rolinho - 3x12", "Prancha 1 braço - 3x20s", "Russian Twist explosivo - 3x30", "Abdominal estrela - 3x12"],
+        "video": "https://www.youtube.com/watch?v=rMsYyGloZ3I"
+      }
+    }
+  },
+  "gluteos": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Ponte de glúteos - 3x15", "Ostra - 3x12", "Glúteo 4 apoios - 3x12"],
+        "video": "https://www.youtube.com/watch?v=tmlUp8jlkRE"
+      },
+      "10": {
+        "exercicios": ["Ponte de glúteos pés juntos - 3x15", "Abdução de quadril - 3x15", "Glúteo 4 apoios perna esticada - 3x12", "Agachamento sumô - 3x12"],
+        "video": "https://www.youtube.com/watch?v=tmlUp8jlkRE"
+      },
+      "15": {
+        "exercicios": ["Ponte - 3x20", "Donkey Kicks - 3x15", "Fire Hydrant - 3x12", "Avanço fixo - 3x10", "Agachamento isométrico - 30s"],
+        "video": "https://www.youtube.com/watch?v=tmlUp8jlkRE"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Ponte unilateral - 3x10", "Agachamento sumô pulsado - 3x20s", "Passada cruzada - 3x12"],
+        "video": "https://www.youtube.com/watch?v=mkDDLzQTrFM"
+      },
+      "10": {
+        "exercicios": ["Hip Thrust (sofá) - 3x15", "Afundo búlgaro - 3x10", "Abdução quadril em pé - 3x15", "Frog Pump - 3x20"],
+        "video": "https://www.youtube.com/watch?v=tmlUp8jlkRE"
+      },
+      "15": {
+        "exercicios": ["Agachamento sumô salto - 3x12", "Ponte marcha - 3x20", "Glúteo 4 apoios arco-íris - 3x12", "Romeno unilateral - 3x10", "Wall sit - 45s"],
+        "video": "https://www.youtube.com/watch?v=QBcZFtQLuDI"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Ponte unilateral explosiva - 3x12", "Agachamento Búlgaro pulso - 3x10", "Salto agachado 180º - 3x12"],
+        "video": "https://www.youtube.com/watch?v=mkDDLzQTrFM"
+      },
+      "10": {
+        "exercicios": ["Hip Thrust Unilateral - 3x10", "Step-up explosivo - 3x10", "Pistol Squat assistido - 3x8", "Monster Walk - 1 min"],
+        "video": "https://www.youtube.com/watch?v=afghBre8NlI"
+      },
+      "15": {
+        "exercicios": ["Pistol alternado - 3x6", "Hip Thrust 1 perna - 4x10", "Afundo saltando - 3x12", "Extensão de quadril em pé - 3x20", "Sumô isometria - 1 min"],
+        "video": "https://www.youtube.com/watch?v=afghBre8NlI"
+      }
+    }
+  },
+  "bracos": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Rosca bíceps - 3x12", "Tríceps francês - 3x12", "Círculos com os braços - 1 min"],
+        "video": "https://www.youtube.com/watch?v=XrauyE7XBlc"
+      },
+      "10": {
+        "exercicios": ["Rosca martelo - 3x12", "Tríceps testa - 3x12", "Elevação lateral - 3x10", "Soco no ar - 1 min"],
+        "video": "https://www.youtube.com/watch?v=XrauyE7XBlc"
+      },
+      "15": {
+        "exercicios": ["Flexão de braço (joelhos) - 3x10", "Rosca concentrada - 3x10", "Tríceps banco - 3x10", "Elevação frontal - 3x10", "Extensão de punho - 3x15"],
+        "video": "https://www.youtube.com/watch?v=XrauyE7XBlc"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Flexão fechada - 3x10", "Rosca bíceps isometria - 3x8", "Tríceps coice - 3x12"],
+        "video": "https://www.youtube.com/watch?v=pH5bl36t-ik"
+      },
+      "10": {
+        "exercicios": ["Flexão diamante - 3x8", "Rosca 21 - 2 séries", "Mergulho banco - 3x12", "Prancha sobe-desce - 3x10"],
+        "video": "https://www.youtube.com/watch?v=pH5bl36t-ik"
+      },
+      "15": {
+        "exercicios": ["Chin-ups ou Remada - 3x8", "Flexão esfinge - 3x8", "Rosca invertida - 3x12", "Tríceps testa unilateral - 3x10", "Shadow Boxing com peso - 2 min"],
+        "video": "https://www.youtube.com/watch?v=v2qdx-naMWs"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Flexão Diamante - 3x12", "Bíceps na porta (isometria) - 3x20s", "Tríceps banco com peso - 3x15"],
+        "video": "https://www.youtube.com/watch?v=4sF-rLa-92Q"
+      },
+      "10": {
+        "exercicios": ["Flexão arqueiro - 3x6", "Rosca direta carga alta - 3x10", "Mergulho paralelas - 3x8", "Caminhada de mão - 3x10"],
+        "video": "https://www.youtube.com/watch?v=4sF-rLa-92Q"
+      },
+      "15": {
+        "exercicios": ["Pull-up - 3x8", "Flexão Tiger Bend - 3x6", "Rosca Zottman - 3x10", "Tríceps Testa corporal - 3x8", "Flexão batendo palma - 3x8"],
+        "video": "https://www.youtube.com/watch?v=v2qdx-naMWs"
+      }
+    }
+  },
+  "peito-costas": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Flexão de braço - 3x10", "Remada curvada - 3x12", "Abertura peitoral - 3x15"],
+        "video": "https://www.youtube.com/watch?v=dOWBThgW0Vk"
+      },
+      "10": {
+        "exercicios": ["Flexão (joelhos) - 3x12", "Superman - 3x12", "Crucifixo reto - 3x12", "Puxada imaginária - 3x15"],
+        "video": "https://www.youtube.com/watch?v=dOWBThgW0Vk"
+      },
+      "15": {
+        "exercicios": ["Flexão declinada - 3x12", "Remada unilateral - 3x12", "Pullover - 3x10", "Anjo de neve invertido - 3x12", "Gato/Vaca - 1 min"],
+        "video": "https://www.youtube.com/watch?v=Kpd9ik93Sxk"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Flexão aberta - 3x12", "Remada alta - 3x12", "Voo invertido - 3x12"],
+        "video": "https://www.youtube.com/watch?v=I4fpAj7vaXM"
+      },
+      "10": {
+        "exercicios": ["Flexão declinada - 3x10", "Remada serrote - 3x12", "Crucifixo - 3x15", "Prancha Superman - 3x20s"],
+        "video": "https://www.youtube.com/watch?v=I4fpAj7vaXM"
+      },
+      "15": {
+        "exercicios": ["Flexão toque ombro - 3x12", "Barra australiana - 3x8", "Flexão inclinada - 3x15", "Renegade Row - 3x8", "Nadador - 3x30s"],
+        "video": "https://www.youtube.com/watch?v=RIMNPOSJ_4s"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Flexão explosiva - 3x10", "Remada Cavalinho - 3x12", "Crucifixo Inverso - 3x15"],
+        "video": "https://www.youtube.com/watch?v=I4fpAj7vaXM"
+      },
+      "10": {
+        "exercicios": ["Flexão Arqueiro - 3x8", "Pull-up - 3xRM", "Flexão Hindu - 3x10", "Superman isometria - 3x30s"],
+        "video": "https://www.youtube.com/watch?v=dOWBThgW0Vk"
+      },
+      "15": {
+        "exercicios": ["Muscle-up (negativa) - 3x5", "Flexão declinada profunda - 3x10", "Remada invertida - 3x10", "Flexão Typewriter - 3x6", "Lombar no chão - 3x20"],
+        "video": "https://www.youtube.com/watch?v=RIMNPOSJ_4s"
+      }
+    }
+  },
+  "cardio-leve": {
+    "iniciante": {
+      "5": {
+        "exercicios": ["Marcha no lugar - 1 min", "Passo lateral - 1 min", "Elevação de joelho - 1 min", "Chute glúteo - 1 min", "Marcha final - 1 min"],
+        "video": "https://www.youtube.com/watch?v=8uVOAhhpEbI"
+      },
+      "10": {
+        "exercicios": ["Marcha estacionária - 2 min", "Polichinelo sem impacto - 2 min", "Agachamento rítmico - 2 min", "Soco no ar - 2 min", "Respiração - 2 min"],
+        "video": "https://www.youtube.com/watch?v=8uVOAhhpEbI"
+      },
+      "15": {
+        "exercicios": ["Caminhada em casa - 5 min", "Subir degrau - 3 min", "Polichinelo adaptado - 3 min", "Chute frontal - 2 min", "Relaxamento - 2 min"],
+        "video": "https://www.youtube.com/watch?v=v8CDptlpeys"
+      }
+    },
+    "intermediario": {
+      "5": {
+        "exercicios": ["Trote no lugar - 2 min", "Polichinelo padrão - 1 min", "Pular corda imaginária - 2 min"],
+        "video": "https://www.youtube.com/watch?v=N382JTSnJCs"
+      },
+      "10": {
+        "exercicios": ["Corrida joelho alto - 2 min", "Mountain climber (em pé) - 2 min", "Agachamento com toque - 2 min", "Patinação - 2 min", "Caminhada rápida - 2 min"],
+        "video": "https://www.youtube.com/watch?v=N382JTSnJCs"
+      },
+      "15": {
+        "exercicios": ["Boxe no ar - 3 min", "Corrida frente/costas - 3 min", "Polisapato - 3 min", "Burpee sem flexão - 3 min", "Trote recuperação - 3 min"],
+        "video": "https://www.youtube.com/watch?v=v8CDptlpeys"
+      }
+    },
+    "avancado": {
+      "5": {
+        "exercicios": ["Corrida rápida - 2 min", "Pular corda rápido - 2 min", "Sprint final - 1 min"],
+        "video": "https://www.youtube.com/watch?v=rMsYyGloZ3I"
+      },
+      "10": {
+        "exercicios": ["Sprints 30s ON / 30s OFF - 5 rounds", "Polichinelo explosivo - 2 min", "Corrida lateral - 3 min"],
+        "video": "https://www.youtube.com/watch?v=rMsYyGloZ3I"
+      },
+      "15": {
+        "exercicios": ["Corrida intervalada - 5 min", "Burpees ritmados - 3 min", "Mountain Climbers chão - 3 min", "Agachamento salto - 2 min", "Trote leve - 2 min"],
+        "video": "https://www.youtube.com/watch?v=rHvxkwMcV30"
       }
     }
   }
