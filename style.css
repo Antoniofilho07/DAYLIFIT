@@ -1,0 +1,309 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #F9FAFB;
+  min-height: 100%;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container principal */
+.app-container {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  background: #F9FAFB;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+/* Header */
+.header {
+  padding: 40px 24px 32px;
+  text-align: center;
+}
+
+.app-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #111827;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.5px;
+}
+
+.app-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6B7280;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Conteúdo principal */
+.main-content {
+  padding: 0 24px 24px;
+  flex: 1;
+}
+
+/* Botão CTA */
+.cta-button {
+  width: 100%;
+  padding: 18px 32px;
+  background: #7C3AED;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.3);
+  margin-bottom: 32px;
+}
+
+.cta-button:hover {
+  background: #6D28D9;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(124, 58, 237, 0.4);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+/* Bloco de seleção */
+.selection-block {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+.selection-block h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+/* Grupo de select */
+.select-group {
+  margin-bottom: 16px;
+}
+
+.select-group:last-child {
+  margin-bottom: 0;
+}
+
+.select-label {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.select-icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+/* Select */
+select {
+  width: 100%;
+  padding: 14px 16px;
+  background: #F9FAFB;
+  border: 2px solid #E5E7EB;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #111827;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%236B7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #7C3AED;
+  background: white;
+}
+
+/* Card do treino */
+.workout-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+.workout-card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+/* Conteúdo do treino */
+.workout-content {
+  background: #F9FAFB;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 150px;
+}
+
+.workout-placeholder {
+  color: #9CA3AF;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Lista de exercícios */
+.workout-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.workout-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #E5E7EB;
+  color: #374151;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.workout-list li:last-child {
+  border-bottom: none;
+}
+
+.workout-list li:before {
+  content: "💪";
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+/* Thumbnail de vídeo */
+.video-thumbnail {
+  background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+  border-radius: 12px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Botão play do vídeo */
+.play-button {
+  width: 64px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+  background: white;
+}
+
+.play-icon {
+  width: 0;
+  height: 0;
+  border-left: 20px solid #7C3AED;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  margin-left: 4px;
+}
+
+/* Menu inferior */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  border-top: 1px solid #E5E7EB;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0 20px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+
+.nav-item:hover {
+  background: #F9FAFB;
+}
+
+.nav-item.active .nav-icon,
+.nav-item.active .nav-label {
+  color: #7C3AED;
+}
+
+.nav-icon {
+  font-size: 24px;
+  color: #9CA3AF;
+}
+
+.nav-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6B7280;
+}
+
+/* Responsividade */
+@media (max-width: 430px) {
+  .app-container {
+    max-width: 100%;
+  }
+
+  .bottom-nav {
+    max-width: 100%;
+  }
+}

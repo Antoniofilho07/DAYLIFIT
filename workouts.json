@@ -1,0 +1,22 @@
+{
+  "inferiores": {
+    "iniciante": {
+      "5": {
+        "exercicios": [
+          "Agachamento livre - 3x10",
+          "Elevação de panturrilha - 3x15",
+          "Ponte de glúteos - 3x12"
+        ],
+        "video": "https://www.youtube.com/watch?v=bEv6CCg2BC8"
+      },
+      "10": {
+        "exercicios": [
+          "Agachamento livre - 3x15",
+          "Avanço alternado - 3x10",
+          "Elevação de panturrilha - 3x20"
+        ],
+        "video": "https://www.youtube.com/watch?v=aclHkVaku9U"
+      }
+    }
+  }
+}
