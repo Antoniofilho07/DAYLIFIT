@@ -4,106 +4,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DailyFit - Treinos Personalizados</title>
-
-  <!-- Fontes -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <!-- CSS externo -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="app-container">
-    <header class="header">
-      <h1 class="app-title" id="app-title">DailyFit</h1>
-      <p class="app-subtitle" id="app-subtitle">Treinos rápidos e personalizados para sua rotina.</p>
-    </header>
+    
+    <div id="view-home">
+      <header class="header">
+        <h1 class="app-title">DailyFit</h1>
+        <p class="app-subtitle">Treinos rápidos e personalizados para sua rotina.</p>
+      </header>
 
-    <main class="main-content">
-      <button class="cta-button" id="cta-button">Gerar Treino do Dia</button>
+      <main class="main-content">
+        <div class="selection-block">
+          <h3>Configure seu treino</h3>
 
-      <!-- Seleção -->
-      <div class="selection-block">
-        <h3>Configure seu treino</h3>
+          <div class="select-group">
+            <label class="select-label"><span class="select-icon">🎯</span> Categoria</label>
+            <select id="category">
+              <option value="inferiores">Inferiores</option>
+              <option value="superiores">Superiores</option>
+              <option value="corpo-inteiro">Corpo inteiro</option>
+              <option value="hiit">HIIT</option>
+              <option value="alongamento">Alongamento</option>
+              <option value="abs">Abdominais</option>
+              <option value="gluteos">Glúteos</option>
+              <option value="bracos">Braços</option>
+              <option value="peito-costas">Peito e Costas</option>
+              <option value="cardio-leve">Cardio leve</option>
+            </select>
+          </div>
 
-        <div class="select-group">
-          <label class="select-label">
-            <span class="select-icon">🎯</span> Categoria do treino
-          </label>
-          <select id="category">
-            <option value="inferiores">Inferiores</option>
-            <option value="superiores">Superiores</option>
-            <option value="corpo-inteiro">Corpo inteiro</option>
-            <option value="hiit">HIIT</option>
-            <option value="alongamento">Alongamento</option>
-            <option value="abs">Abdominais</option>
-            <option value="gluteos">Glúteos</option>
-            <option value="bracos">Braços</option>
-            <option value="peito-costas">Peito e Costas</option>
-            <option value="cardio-leve">Cardio leve</option>
-          </select>
+          <div class="select-group">
+            <label class="select-label"><span class="select-icon">📊</span> Nível</label>
+            <select id="level">
+              <option value="iniciante">Iniciante</option>
+              <option value="intermediario">Intermediário</option>
+              <option value="avancado">Avançado</option>
+            </select>
+          </div>
+
+          <div class="select-group">
+            <label class="select-label"><span class="select-icon">⏱️</span> Tempo</label>
+            <select id="duration">
+              <option value="5">5 minutos</option>
+              <option value="10">10 minutos</option>
+              <option value="15">15 minutos</option>
+            </select>
+          </div>
+          
+          <button class="cta-button" id="cta-button" style="margin-top: 16px;">Gerar Treino</button>
         </div>
 
-        <div class="select-group">
-          <label class="select-label">
-            <span class="select-icon">📊</span> Nível físico
-          </label>
-          <select id="level">
-            <option value="iniciante">Iniciante</option>
-            <option value="intermediario">Intermediário</option>
-            <option value="avancado">Avançado</option>
-          </select>
+        <div class="workout-card" id="workout-section" style="display: none;">
+          <h3 id="workout-title">Seu Treino</h3>
+
+          <div class="workout-content" id="workout-content"></div>
+
+          <div class="video-thumbnail" id="video-thumbnail" style="display: none;">
+            <div class="play-button"><div class="play-icon"></div></div>
+          </div>
+          
+          <button class="cta-button" id="finish-button" style="background: #10B981; margin-top: 20px;">
+            ✅ Concluir Treino
+          </button>
         </div>
+      </main>
+    </div>
 
-        <div class="select-group">
-          <label class="select-label">
-            <span class="select-icon">⏱️</span> Tempo de treino
-          </label>
-          <select id="duration">
-            <option value="5">5 minutos</option>
-            <option value="10">10 minutos</option>
-            <option value="15">15 minutos</option>
-          </select>
-        </div>
-      </div>
+    <div id="view-profile" style="display: none;">
+      <header class="header">
+        <h1 class="app-title">Seu Progresso</h1>
+        <p class="app-subtitle">Acompanhe sua evolução diária.</p>
+      </header>
+      
+      <main class="main-content">
+        <div class="selection-block">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center;">
+            
+            <div style="background: #F3F4F6; padding: 15px; border-radius: 12px;">
+              <div style="font-size: 24px;">🔥</div>
+              <strong style="font-size: 20px; color: #111827;" id="stat-streak">0</strong>
+              <div style="font-size: 12px; color: #6B7280;">Dias Seguidos</div>
+            </div>
 
-      <!-- Bloco do treino -->
-      <div class="workout-card">
-        <h3 id="workout-title">Seu Treino de Hoje</h3>
+            <div style="background: #F3F4F6; padding: 15px; border-radius: 12px;">
+              <div style="font-size: 24px;">💪</div>
+              <strong style="font-size: 20px; color: #111827;" id="stat-workouts">0</strong>
+              <div style="font-size: 12px; color: #6B7280;">Treinos</div>
+            </div>
 
-        <div class="workout-content" id="workout-content">
-          <p class="workout-placeholder">
-            Clique em "Gerar Treino do Dia" para começar seu treino personalizado.
-          </p>
-        </div>
+            <div style="background: #F3F4F6; padding: 15px; border-radius: 12px;">
+              <div style="font-size: 24px;">⏱️</div>
+              <strong style="font-size: 20px; color: #111827;" id="stat-minutes">0</strong>
+              <div style="font-size: 12px; color: #6B7280;">Minutos</div>
+            </div>
 
-        <div class="video-thumbnail" id="video-thumbnail" style="display: none;">
-          <div class="play-button">
-            <div class="play-icon"></div>
+            <div style="background: #F3F4F6; padding: 15px; border-radius: 12px;">
+              <div style="font-size: 24px;">🏆</div>
+              <strong style="font-size: 14px; color: #111827; display: block; margin-top: 4px;" id="stat-favorite">-</strong>
+              <div style="font-size: 12px; color: #6B7280;">Favorito</div>
+            </div>
+
           </div>
         </div>
-      </div>
-    </main>
+        
+        <div class="workout-card">
+          <h3>Histórico Recente</h3>
+          <ul class="workout-list" id="history-list">
+            <li style="text-align: center; color: #9CA3AF;">Nenhum treino realizado ainda.</li>
+          </ul>
+        </div>
+      </main>
+    </div>
 
-    <!-- Navegação inferior -->
     <nav class="bottom-nav">
-      <div class="nav-item active">
+      <div class="nav-item active" id="nav-home">
         <div class="nav-icon">🏠</div>
         <div class="nav-label">Home</div>
       </div>
-      <div class="nav-item">
-        <div class="nav-icon">💪</div>
-        <div class="nav-label">Treinos</div>
-      </div>
-      <div class="nav-item">
+      <div class="nav-item" id="nav-profile">
         <div class="nav-icon">👤</div>
         <div class="nav-label">Perfil</div>
       </div>
     </nav>
   </div>
 
-  <!-- JS externo -->
   <script src="app.js"></script>
-
 </body>
 </html>
